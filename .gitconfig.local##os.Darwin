@@ -1,0 +1,6 @@
+[credential]
+	helper = osxkeychain
+[credential "https://github.com"]
+	helper = !op plugin run -- gh auth git-credential
+[credential "https://gist.github.com"]
+	helper = !op plugin run -- gh auth git-credential
